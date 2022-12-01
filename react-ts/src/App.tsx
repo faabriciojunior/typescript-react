@@ -51,7 +51,7 @@ function App() {
     <div className="App">
       <Title/>
       <div className="add-todo">
-        <input className='input' placeholder="Adicione items" value={todoInput} onChange={handleInputChange} />
+        <input className='input' placeholder="Adicione items aqui" value={todoInput} onChange={handleInputChange} />
         <button onClick={addTodo}>Adicionar</button>
       </div>
 
