@@ -1,0 +1,80 @@
+.app {
+    margin:0;
+    padding:0;
+    border:0;
+}
+header {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 45px;
+}
+.menu {
+    padding: 10px;
+}
+.icon:hover {
+    cursor: pointer;
+}
+.container {
+    background-color: rgb(223, 223, 223);
+    margin: none;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 900px;
+}
+.fundos-title {
+    padding: 20px;
+}
+.stack {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.container-list {
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 0.1rem;
+    padding-left: 1.5rem;
+    padding-bottom: 0.1px;
+}
+.view {
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 2rem;
+    padding-left: 3rem;
+    margin-top: 2px;
+}
+.view-2 {
+    margin-right: 300px;
+}
+.view-second {
+    display: flex;
+    justify-content: space-between;
+}
+.page-container {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 550px;
+    align-items: center;
+}
+.rows-page {
+    margin-top: 45px;
+    padding-bottom: 40px;
+}
+.title-table {
+    font-weight: bold;
+}
+.tabela {
+    margin-top: 45px;
+    width: 95%;
+}
+.border-table {
+    border: 2;
+}
+.nav-container {
+    display: flex;
+    justify-content: center;
+}
