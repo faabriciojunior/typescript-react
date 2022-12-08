@@ -11,28 +11,28 @@ Seguem referencias para criação do modelo:
 
   1. Começar iniciando o projeto: 
 
-yarn create vite (nome do projeto) (para criar as dependências)
+    yarn create vite (nome do projeto) (para criar as dependências)
 
-    1.1 Select a framework (para selecionar o framework que será usado):
+ 1.1 Select a framework (para selecionar o framework que será usado):
  
-react
+    react
 
   2. Para rodar o projeto:
   
-cd (nome do projeto)
+    cd (nome do projeto)
 
-yarn (instala as dependências necessárias para rodar o projeto)
+    yarn (instala as dependências necessárias para rodar o projeto)
 
-yarn dev (Abre um localhost)
+    yarn dev (Abre um localhost)
 
   3. Assim que é aberto na IDE, é possível ver as pastas e arquivos default
   
   4. Em seguida, apague o código do Arquivo App.tsx 
   
   5. Adicione o seguinte código fonte (segue o código com as intruções):
-  
+```  
    // 5.1 Importações
-    
+
 import * as React from "react";
 import MenuIcon from "@mui/icons-material/Menu";
 import Box from "@mui/material/Box";
@@ -355,12 +355,15 @@ function App(props: Props) {
 
 export default App;
 
+```
+
   6. Em conjunto, criasse a pasta components dentro de src
   
   7. Criasse então a pasta buttons, com o arquivo inde.tsx dentro dela
   
   8. Segue o código fonte do arquivo index.tsx da pasta buttons:
   
+  ```
    // 8.1 Importações
    
 import * as React from 'react';
@@ -378,6 +381,8 @@ export default function Buttons() {
     </Stack>
   );
 }
+
+  ```
 
   9. As outras pastas seguem o código padrão
   
